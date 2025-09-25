@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Hafidlul</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/23d74b9cab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="navbar-wrapper">
+    <button class="menu-toggle" id="menuToggle">&#9776;</button>
+    <nav class="navbar">
+      <ul id="navMenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#project">Portfolio</a></li>
+        <li><a href="#lainnya">Lainnya</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hafidlul<br />Muffid Hidayat</h1>
+        
+        <div class="Text-Home-Page">
+          <div class="loader">
+            <a class="saya">I'm</a>
+            <div class="words">
+              <span class="word">human.</span>
+              <span class="word">UI/UX Designer.</span>
+              <span class="word">Graphic Designer.</span>
+              <span class="word">Front-End Developer.</span>
+              <span class="word">human.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="type-container">
+          <div class="static-text">I'm</div>
+          <div class="changing-text" id="changingText"></div>
+        </div>
+
+        <hr class="fancy-line" />
+
+        <p>
+          graphic design is a passion, currently I focus on UIUX design and web design
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#about" class="btn-discord">More About Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="section-title">About Me</div>
+    <div class="about-inner bg-gradient">
+      <div class="about-images">
+          <div class="about-main-img-bg">
+            <img src="src/asset/me.png" class="about-main-img" alt="about Main"/>
+          </div>
+          <div class="about-icon-stack">
+            <img src="src/asset/html.png" class="about-img about-img-1" alt="about 1"/>
+            <img src="src/asset/illustrator.png" class="about-img about-img-2" alt="about 2"/>
+            <img src="src/asset/figma.png" class="about-img about-img-3" alt="about 3"/>
+            <img src="src/asset/photoshop.png" class="about-img about-img-4" alt="about 3"/>
+            <img src="src/asset/css-3.png" class="about-img about-img-5" alt="about 3"/>
+            <img src="src/asset/js.png" class="about-img about-img-6" alt="about 3"/>
+          </div>
+      </div>
+      <div class="about-collection-content">
+        <span class="about-collection-badge">i'am.......</span>
+        <h2 class="about-collection-title">Hafidlul <br> Muffid Hidayat</h2>
+        <p class="about-collection-desc">
+          A graphic designer focusing on UI/UX and web design, committed to continuously developing skills in design and front-end development according to the latest trends.
+        </p>
+        <div class="hero-buttons">
+          <a href="https://www.figma.com/slides/z9PhVyl6SbinrTpqyjuHsB/PORTFOLIO?node-id=1-75&t=ooZLVN0ClcYZYnrO-1" target="_blank" rel="noopener" class="btn-discord">Portfolio</a>
+          <a href="#contact" class="btn-whitepaper">View My CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section" id="project">
+    <div class="section-title">Portfolio</div>
+  </section>
+
+  <section class="card-slider-section">
+    <button class="slider-btn-ki prev" onclick="prevCard()" title="Previous Card"><i class="fa-solid fa-caret-left"></i></button>
+    <div class="card-slider-container">
+      <div class="card-slider-track" id="cardSliderTrack">
+        <div class="slider-card">
+          <div class="card-content">
+            <div class="card-left">
+              <div class="chain-title"><span class="card-dot"></span>DRIVEA</div>
+              <ul class="partner-list">
+                <li><img src="src/asset/figma.png" alt="Figma" /> FIGMA</li>
+              </ul>
+            </div>
+            <div class="card-features">
+              <div class="feature-card">
+                <img src="src/asset/Drivea.png" class="feature-icon" alt="drivea"/>
+                <div>
+                  <div class="feature-title">Aplikasi Rental Mobil</div>
+                  <div class="feature-desc">Pengembangan UI pada project mata kuliah PBO Rental Mobil bertujuan untuk menciptakan antarmuka yang modern, responsif, dan mudah digunakan untuk mendukung efisiensi operasional dan kenyamanan pengguna dalam mengelola sistem penyewaan kendaraan.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-card">
+          <div class="card-content">
+            <div class="card-left">
+              <div class="chain-title"><span class="card-dot"></span>UN EAT</div>
+              <ul class="partner-list">
+                <li><img src="src/asset/figma.png" alt="Figma" /> FIGMA</li>
+              </ul>
+            </div>
+            <div class="card-features">
+              <div class="feature-card">
+                <img src="src/asset/mobile_fnb.png" class="feature-icon" alt="fnb" />
+                <div>
+                  <div class="feature-title">UI/UX Mobile FnB</div>
+                  <div class="feature-desc">Real-time about data from Polygon network.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-card">
+          <div class="card-content">
+            <div class="card-left">
+              <div class="chain-title"><span class="card-dot"></span>STUDY QURAN</div>
+              <ul class="partner-list">
+                <li><img src="src/asset/figma.png" alt="Figma" /> FIGMA</li>
+              </ul>
+            </div>
+            <div class="card-features">
+              <div class="feature-card">
+                <img src="src/asset/Mobile_DAQ.png" class="feature-icon" alt="DAQ"/>
+                <div>
+                  <div class="feature-title">Desain Aplikasi Alquran</div>
+                  <div class="feature-desc">Real-time about data from Polygon network.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-card">
+          <div class="card-content">
+            <div class="card-left">
+              <div class="chain-title"><span class="card-dot"></span>MERCUSUAR</div>
+              <ul class="partner-list">
+                <li><img src="src/asset/figma.png" alt="Figma" /> FIGMA</li>
+              </ul>
+            </div>
+            <div class="card-features">
+              <div class="feature-card">
+                <img src="src/asset/Mercusuar.png" class="feature-icon" alt="mercusuar"/>
+                <div>
+                  <div class="feature-title">UI/UX Mobile FnB</div>
+                  <div class="feature-desc">Real-time about data from Polygon network.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-card">
+          <div class="card-content">
+            <div class="card-left">
+              <div class="chain-title"><span class="card-dot"></span>Note In</div>
+              <ul class="partner-list">
+              </ul>
+            </div>
+            <div class="card-features">
+              <div class="feature-card">
+                <img src="src/asset/Catatan.png" class="feature-icon" alt="NoteIn"/>
+                <div>
+                  <div class="feature-title">UI/UX Mobile FnB</div>
+                  <div class="feature-desc">Real-time about data from Polygon network.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="slider-btn-kn next" onclick="nextCard()" title="Next Card"><i class="fa-solid fa-caret-right"></i></button>
+  </section>
+
+  <div class="roadmap-container" id="lainnya">
+    <div class="roadmap-title">Lainnya</div>
+    <div class="roadmap-desc">
+      This section contains additional details, such as educational background, experiences, and activities that have been part of the journey so far. The content will continue to grow and develop along with future achievements and developments.
+    </div>
+    <div class="roadmap-grid">
+      <div class="phase-card">
+        <div class="phase-header">
+          <span class="phase-badge">2021 - 2024</span>
+        </div>
+        <div class="phase-title">SMK Telkom Sidoarjo</div>
+        <div class="phase-subtitle">Teknik Jaringan Akses Telekomunikasi</div>
+        <ul class="phase-list">
+          <li class="phase-list-title">Experience</li>
+          <li>Techfast - Desain Grafis Tech</li>
+          <li>Student Talk - Logo Design</li>
+          <li>Fiber Optic Configuration</li>
+          <li>Mikrotik Configuration</li>
+          <li class="phase-list-title">Class DTP Hipster</li>
+          <li>Create a Moblie Application Prototype</li>
+          <li>Create ui/ux Web Design</li>
+          <li class="phase-list-title">Other graphic design projects</li>
+        </ul>
+      </div>
+      <div class="phase-card">
+        <div class="phase-header">
+          <span class="phase-badge">2023</span>
+        </div>
+        <div class="phase-title">CV. Purnama Kreatifa</div>
+        <div class="phase-subtitle">Developer company - Internship as a graphic designer</div>
+        <ul class="phase-list">
+          <li class="phase-list-title">Description</li>
+          <li><p>interned at this company as a graphic designer <br>with the main task of fulfilling various design needs of the company. <br> addition to focusing on graphic design, I was also involved in several additional tasks such<br>as developing application displays and recording required data.</p></li>
+        </ul>
+        <div class="phase-title"><span class="phase-new">Juni 2023 - November 2023</span></div>
+      </div>
+      <div class="phase-card">
+        <div class="phase-header">
+          <span class="phase-badge">2022 - Now</span>
+        </div>
+        <div class="phase-title">Freelance</div>
+        <div class="phase-subtitle">Graphic Design & Ui/Ux Design</div>
+        <ul class="phase-list">
+          <li>Logo Design</li>
+          <li>Poster Design</li>
+          <li>Banner Design</li>
+          <li>Ui / Ux Design</li>
+          <li>Web Design</li>
+        </ul>
+      </div>
+      <div class="phase-card">
+        <div class="phase-header">
+          <span class="phase-badge">2024 - Now</span>
+        </div>
+        <div class="phase-title">Universitas Jember</div>
+        <div class="phase-subtitle">Ilmu Komputer - Teknologi Informasi</div>
+        <ul class="phase-list">
+          <li class="phase-list-title">Organization</li>
+          <li>Linux and Open Source Student Activity Unit - UKM LAOS Divisi Multimedia</li>
+          <li class="phase-list-title">More</li>
+          <li>1st Place - Desain Aplikasi Alquran (DAQ)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="modern-footer">
+    <div class="footer-neon-bar" id="contact"></div>
+    <h2>Contact Me</h2>
+    <div class="footer-container">
+      <div class="menu">
+        <a href="https://wa.me/6285712461472" class="link"target="_blank" rel="noopener">
+          <span class="link-icon"><i class="fa-brands fa-whatsapp"></i></span>
+          <span class="link-title">085712461472</span>
+        </a>
+        <a href="https://instagram.com/hafidlul._" class="link"target="_blank" rel="noopener">
+          <span class="link-icon"><i class="fa-brands fa-instagram"></i></span>
+          <span class="link-title">hafidlul._</span>
+        </a>
+        <a href="#contact" class="link">
+          <span class="link-icon"><i class="fa-brands fa-discord"></i></span>
+          <span class="link-title">hafidmufid</span>
+        </a>
+        <a href="#contact" class="link">
+          <span class="link-icon"><i class="fa-brands fa-github"></i></span>
+          <span class="link-title">Github</span>
+        </a>
+        <a href="#contact" class="link">
+          <span class="link-icon"><i class="fa-brands fa-linkedin"></i></span>
+          <span class="link-title">Linkedin</span>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Hafidlul Muffid Hidayat. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('menuToggle');
+    const menu = document.getElementById('navMenu');
+
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+
+    let currentCard = 0;
+    const track = document.getElementById('cardSliderTrack');
+    const totalCards = track.children.length;
+
+    function updateSlider() {
+      track.style.transform = `translateX(-${currentCard * 100}%)`;
+    }
+    function nextCard() {
+      if (currentCard < totalCards - 1) {
+        currentCard++;
+        updateSlider();
+      }
+    }
+    function prevCard() {
+      if (currentCard > 0) {
+        currentCard--;
+        updateSlider();
+      }
+    }
+    updateSlider();
+
+    const texts = ["human", "ui/ux designer", "graphic designer"];
+    const speed = 100; // typing speed in ms
+    const delay = 1500; // delay after word fully typed
+    const changingText = document.getElementById('changingText');
+
+    let textIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+
+    function typeEffect() {
+      const currentText = texts[textIndex];
+      if (isDeleting) {
+        changingText.textContent = currentText.substring(0, charIndex--);
+      } else {
+        changingText.textContent = currentText.substring(0, charIndex++);
+      }
+
+      if (!isDeleting && charIndex === currentText.length + 1) {
+        setTimeout(() => isDeleting = true, delay);
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        textIndex = (textIndex + 1) % texts.length;
+      }
+
+      setTimeout(typeEffect, isDeleting ? speed / 2 : speed);
+    }
+    
+    typeEffect();
+  </script>
+</body>
+</html>
